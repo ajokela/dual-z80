@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+
+import os, sys
+
+layerMapping = {
+    'top.copper':       'gtl',
+    'bottom.copper':    'gbl',
+    'top.mask':         'gts',
+    'bottom.mask':      'gbs',
+    'top.silk':         'gto',
+    'bottom.silk':      'gbo',
+    'top.paste':        'gtp',
+    'bottom.paste':     'gbp',
+    'global.boundary':  'gko',
+    'global.virtual.pdrill': 'drl',
+}
+
+where = '.'
+try:
+    where = sys.argv[1]
+except:
+    pass
+
+os.chdir(where)
+for filename in os.listdir('.'):
+    if not filename.endswith('.gbr'):
+        continue
+    matched = False
+    for layer, ext in layerMapping.items():
+        if layer in filename:
+            basename = filename.split('.')[0]
+            newFilename = '{}.{}'.format(basename, ext)
+            print('Renaming {} to {}'.format(filename, newFilename))
+            os.rename(filename, newFilename)
+            matched = True
+            break
+    if not matched:
+        print('No mapping for', filename)
+
+sys.exit(0)

@@ -1,0 +1,21 @@
+# $Id$
+# PcbXY Version 1.0
+# Date: 2026-03-06 22:02:19 UTC
+# Author: Alex
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mil.  rotation in degrees.
+# --------------------------------------------
+LED1,"LED3","unknown",600.00,2000.00,0,top
+J1,"HEADER36_1","unknown",150.00,1150.00,0,top
+U1,"DIP40","unknown",1500.00,1050.00,0,top
+R3,"0805","680",1900.00,750.00,90,top
+C3,"0805","22PF",800.00,1450.00,-90,top
+R1,"0805","33",300.00,150.00,90,top
+C2,"0805","100NF",1100.00,1050.00,-90,top
+C1,"0805","100NF",375.00,2000.00,180,top
+U2,"DIP40","unknown",2740.94,1050.00,0,top
+J2,"HEADER12_1","unknown",2333.46,1750.00,0,top
+C4,"0805","100NF",2834.65,2000.00,180,top
+C5,"0805","22PF",2362.20,1450.00,-90,top
+R2,"0805","33",2283.46,150.00,90,top

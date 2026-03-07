@@ -1,0 +1,15 @@
+# $Id$
+# PcbBOM Version 1.0
+# Date: 2026-03-06 22:02:19 UTC
+# Author: Alex
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+3,"0805","100NF",C2 C1 C4
+2,"0805","22PF",C3 C5
+1,"HEADER12_1","unknown",J2
+1,"HEADER36_1","unknown",J1
+1,"LED3","unknown",LED1
+2,"0805","33",R1 R2
+1,"0805","680",R3
+2,"DIP40","unknown",U1 U2

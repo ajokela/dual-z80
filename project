@@ -1,0 +1,2 @@
+schematics kz80.sch kz80_cpu2.sch
+output-name kz80
