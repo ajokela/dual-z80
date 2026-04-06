@@ -1,0 +1,6 @@
+Qty,Description,Value,Package,RefDes,Manufacturer Part Number,Notes
+3,Ceramic Capacitor,100nF,0805,C1 C2 C4,,Decoupling capacitors
+2,Ceramic Capacitor,22pF,0805,C3 C5,,Clock capacitors
+2,Resistor,33 ohm,0805,R1 R2,,Clock series resistors
+1,Resistor,680 ohm,0805,R3,,LED current limiting resistor
+1,LED,Red,3mm through-hole,LED1,,Bus activity indicator

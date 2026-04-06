@@ -1,0 +1,17 @@
+G04 start of page 10 for group 5 layer_idx 2 *
+G04 Title: (unknown), global_outline *
+G04 Creator: pcb-rnd 3.1.4 *
+G04 CreationDate: 2026-04-06 20:17:58 UTC *
+G04 For: Alex Jokela *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions: 340000 210000 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNGLOBAL_BOUNDARY_UROUTE_5*%
+%ADD52C,0.0100*%
+G54D52*X0Y210000D02*Y0D01*
+Y210000D02*X340000D01*
+X0Y0D02*X340000D01*
+Y210000D02*Y0D01*
+M02*
