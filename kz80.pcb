@@ -1685,7 +1685,7 @@ Layer(5 "silk")
 	Text[36830000nm 9525000nm 0 121 "Z80" "clearline"]
 	Text[21590000nm 4445000nm 0 78 "A12" "clearline"]
 	Text[7696000nm 11162600nm 0 142 "RETROSHIELD" "clearline"]
-	Text[7747000nm 16383000nm 0 100 "Rev A" "clearline"]
+	Text[7747000nm 16383000nm 0 100 "Rev C" "clearline"]
 	Text[8065700nm 23120800nm 0 100 "www.8bitforce.com" "clearline"]
 	Text[8065700nm 25660800nm 0 100 "tinycomputers.io" "clearline"]
 	Text[37465000nm 42545000nm 0 100 "vs" "clearline"]
